@@ -48,7 +48,6 @@ object fTarefa3: TfTarefa3
       Top = 18
       Width = 657
       Height = 265
-      DataSource = DataSource
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
@@ -88,16 +87,5 @@ object fTarefa3: TfTarefa3
       Height = 21
       TabOrder = 4
     end
-  end
-  object DataSource: TDataSource
-    DataSet = ClientDataSet
-    Left = 264
-    Top = 304
-  end
-  object ClientDataSet: TClientDataSet
-    Aggregates = <>
-    Params = <>
-    Left = 120
-    Top = 320
   end
 end
