@@ -58,7 +58,7 @@ end;
 
 procedure TfTarefa3.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
-  Tarefas.Free;
+  Action := caFree;
 end;
 
 procedure TfTarefa3.FormCreate(Sender: TObject);

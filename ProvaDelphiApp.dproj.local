@@ -2,19 +2,21 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/04/14 19:37:42.000.546,=C:\Users\supor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 19:40:08.000.439,E:\ProvaDelphiApp\UniPrincipal.dfm=C:\Users\supor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021/04/14 19:40:08.000.439,E:\ProvaDelphiApp\UniPrincipal.pas=C:\Users\supor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 19:40:20.000.998,E:\ProvaDelphiApp\ProvaDelphiApp.dproj=C:\Users\supor\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/04/14 19:40:08.000.439,C:\Users\supor\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\ProvaDelphiApp\UniPrincipal.dfm</Transaction>
+    <Transaction>2021/04/14 19:40:08.000.439,C:\Users\supor\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\ProvaDelphiApp\UniPrincipal.pas</Transaction>
+    <Transaction>2021/04/14 19:40:20.000.998,C:\Users\supor\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\ProvaDelphiApp\ProvaDelphiApp.dproj</Transaction>
     <Transaction>2021/04/14 20:33:10.000.779,=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 20:33:30.000.237,E:\ProvaDelphiApp\ufTarefa1.pas=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 20:33:30.000.237,E:\ProvaDelphiApp\ufTarefa1.dfm=E:\ProvaDelphiApp\Unit1.dfm</Transaction>
+    <Transaction>2021/04/14 20:33:30.000.237,E:\ProvaDelphiApp\Unit1.pas=E:\ProvaDelphiApp\ufTarefa1.pas</Transaction>
+    <Transaction>2021/04/14 20:33:30.000.237,E:\ProvaDelphiApp\Unit1.dfm=E:\ProvaDelphiApp\ufTarefa1.dfm</Transaction>
     <Transaction>2021/04/14 20:46:32.000.513,=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 20:46:45.000.312,E:\ProvaDelphiApp\ufTarefa2.dfm=E:\ProvaDelphiApp\Unit1.dfm</Transaction>
-    <Transaction>2021/04/14 20:46:45.000.312,E:\ProvaDelphiApp\ufTarefa2.pas=E:\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/04/14 20:46:45.000.312,E:\ProvaDelphiApp\Unit1.pas=E:\ProvaDelphiApp\ufTarefa2.pas</Transaction>
+    <Transaction>2021/04/14 20:46:45.000.312,E:\ProvaDelphiApp\Unit1.dfm=E:\ProvaDelphiApp\ufTarefa2.dfm</Transaction>
     <Transaction>2021/04/14 20:47:44.000.349,=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 20:47:57.000.521,E:\ProvaDelphiApp\ufTarefa3..pas=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/14 20:47:57.000.521,E:\ProvaDelphiApp\ufTarefa3..dfm=E:\ProvaDelphiApp\Unit1.dfm</Transaction>
+    <Transaction>2021/04/14 20:47:57.000.521,E:\ProvaDelphiApp\Unit1.dfm=E:\ProvaDelphiApp\ufTarefa3..dfm</Transaction>
+    <Transaction>2021/04/14 20:47:57.000.521,E:\ProvaDelphiApp\Unit1.pas=E:\ProvaDelphiApp\ufTarefa3..pas</Transaction>
     <Transaction>2021/04/15 09:06:35.000.213,=E:\ProvaDelphiApp\Unit1.pas</Transaction>
-    <Transaction>2021/04/15 09:07:04.000.078,E:\ProvaDelphiApp\Unit1.pas=E:\ProvaDelphiApp\uspTarefa3.pas</Transaction>
+    <Transaction>2021/04/15 09:07:04.000.078,E:\ProvaDelphiApp\uspTarefa3.pas=E:\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 15:15:59.000.760,=E:\ProvaDelphiApp\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 15:16:19.000.483,E:\ProvaDelphiApp\uspTarefa2.pas=E:\ProvaDelphiApp\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

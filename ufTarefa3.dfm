@@ -1,17 +1,21 @@
 object fTarefa3: TfTarefa3
   Left = 0
   Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
   Caption = 'Tarefa 3'
-  ClientHeight = 408
-  ClientWidth = 671
+  ClientHeight = 418
+  ClientWidth = 681
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  FormStyle = fsMDIChild
   OldCreateOrder = False
   Position = poScreenCenter
+  Visible = True
   OnClose = FormClose
   OnCreate = FormCreate
   PixelsPerInch = 96
@@ -48,6 +52,7 @@ object fTarefa3: TfTarefa3
       Top = 18
       Width = 657
       Height = 265
+      ReadOnly = True
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
@@ -78,6 +83,7 @@ object fTarefa3: TfTarefa3
       Top = 309
       Width = 121
       Height = 21
+      ReadOnly = True
       TabOrder = 3
     end
     object EditTotalDivisoes: TEdit
@@ -85,6 +91,7 @@ object fTarefa3: TfTarefa3
       Top = 364
       Width = 121
       Height = 21
+      ReadOnly = True
       TabOrder = 4
     end
   end
