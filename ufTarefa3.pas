@@ -22,6 +22,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure BtnTotalClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure DBGridKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -54,6 +55,13 @@ begin
       totalDivisoesDados();
       EditTotalDivisoes.Text := FormatFloat('#,0.00', totalDivisoes);
     end;
+end;
+
+procedure TfTarefa3.DBGridKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (Key = VK_ESCAPE) then
+    Key := 0;
 end;
 
 procedure TfTarefa3.FormClose(Sender: TObject; var Action: TCloseAction);

@@ -22,11 +22,10 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
+    Thread1 : TTarefa2;
+    Thread2 : TTarefa2;
   public
     { Public declarations }
-    var
-      Thread1 : TTarefa2;
-      Thread2 : TTarefa2;
   end;
 
 var

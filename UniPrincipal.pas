@@ -39,17 +39,16 @@ end;
 
 procedure TFrmPrincipal.Tarefa1Click(Sender: TObject);
 begin
-  TfTarefa1.Create(self).Show;
+  Application.CreateForm(TfTarefa1, fTarefa1);
 end;
 
 procedure TFrmPrincipal.Tarefa2Click(Sender: TObject);
 begin
-  TfTarefa2.Create(self).Show;
+  Application.CreateForm(TfTarefa2, fTarefa2);
 end;
 
 procedure TFrmPrincipal.Tarefa3Click(Sender: TObject);
 begin
-   TfTarefa3.Create(self).Show;
+  Application.CreateForm(TfTarefa3, fTarefa3);
 end;
-
 end.

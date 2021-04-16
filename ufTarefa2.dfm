@@ -4,7 +4,7 @@ object fTarefa2: TfTarefa2
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Tarefa 2'
-  ClientHeight = 313
+  ClientHeight = 305
   ClientWidth = 538
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET

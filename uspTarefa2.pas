@@ -21,10 +21,10 @@ type
     procedure SetProgressBarValue2(const Value: Integer);
     procedure SetThreadProcesso(const Value: Integer);
 
-    destructor Destroy; override;
-
   public
     constructor Create (const CreateSuspended : boolean; const tempo : integer; const processo : integer);
+
+    destructor Destroy; override;
 
     property ProgressBarValue1: Integer read FProgressBarValue1 write SetProgressBarValue1;
     property ProgressBarValue2: Integer read FProgressBarValue2 write SetProgressBarValue2;
@@ -79,10 +79,6 @@ begin
 
       ShowMessage('Fim Thread 1');
       fTarefa2.ProgressBar1.Position := 0;
-
-      Terminate;
-      WaitFor;
-      Free;
     end;
 
   if ThreadProcesso = 2 then
@@ -96,11 +92,11 @@ begin
 
       ShowMessage('Fim Thread 2');
       fTarefa2.ProgressBar2.Position := 0;
-
-      Terminate;
-      WaitFor;
-      Free;
     end;
+
+    Terminate;
+    WaitFor;
+    Free;
 end;
 
 procedure TTarefa2.Execute;

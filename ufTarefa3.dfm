@@ -5,7 +5,7 @@ object fTarefa3: TfTarefa3
   BorderStyle = bsSingle
   Caption = 'Tarefa 3'
   ClientHeight = 418
-  ClientWidth = 681
+  ClientWidth = 686
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,35 +21,35 @@ object fTarefa3: TfTarefa3
   PixelsPerInch = 96
   TextHeight = 13
   object Panel: TPanel
-    Left = -8
+    Left = -1
     Top = 0
-    Width = 681
+    Width = 690
     Height = 417
     TabOrder = 0
     object lblTitulo: TLabel
-      Left = 24
+      Left = 15
       Top = 2
       Width = 92
       Height = 13
       Caption = 'Valores por projeto'
     end
     object lblTotal: TLabel
-      Left = 542
+      Left = 550
       Top = 293
       Width = 40
       Height = 13
       Caption = 'Total R$'
     end
     object lblTotalDivisoes: TLabel
-      Left = 542
+      Left = 550
       Top = 348
       Width = 81
       Height = 13
       Caption = 'Total divis'#245'es R$'
     end
     object DBGrid: TDBGrid
-      Left = 16
-      Top = 18
+      Left = 14
+      Top = 21
       Width = 657
       Height = 265
       ReadOnly = True
@@ -59,9 +59,10 @@ object fTarefa3: TfTarefa3
       TitleFont.Height = -11
       TitleFont.Name = 'Tahoma'
       TitleFont.Style = []
+      OnKeyDown = DBGridKeyDown
     end
     object BtnTotal: TButton
-      Left = 408
+      Left = 415
       Top = 309
       Width = 107
       Height = 25
@@ -70,7 +71,7 @@ object fTarefa3: TfTarefa3
       OnClick = BtnTotalClick
     end
     object BtnTotalDivisoes: TButton
-      Left = 408
+      Left = 415
       Top = 362
       Width = 107
       Height = 25
@@ -79,7 +80,7 @@ object fTarefa3: TfTarefa3
       OnClick = BtnTotalDivisoesClick
     end
     object EditTotal: TEdit
-      Left = 542
+      Left = 550
       Top = 309
       Width = 121
       Height = 21
@@ -87,7 +88,7 @@ object fTarefa3: TfTarefa3
       TabOrder = 3
     end
     object EditTotalDivisoes: TEdit
-      Left = 542
+      Left = 550
       Top = 364
       Width = 121
       Height = 21
