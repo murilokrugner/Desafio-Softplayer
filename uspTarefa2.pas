@@ -78,6 +78,7 @@ begin
         end;
 
       ShowMessage('Fim Thread 1');
+      Sleep(1000);
       fTarefa2.ProgressBar1.Position := 0;
     end;
 
@@ -91,6 +92,7 @@ begin
         end;
 
       ShowMessage('Fim Thread 2');
+      Sleep(1000);
       fTarefa2.ProgressBar2.Position := 0;
     end;
 

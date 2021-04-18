@@ -6,13 +6,13 @@
     <Transaction>2021/04/16 08:38:55.000.287,C:\Users\supor\Documents\Embarcadero\Studio\Projects\spComponentes.dproj=C:\Users\supor\Documents\Embarcadero\Studio\Projects\spComponentes.dproj</Transaction>
     <Transaction>2021/04/16 09:19:29.000.393,=E:\Desafio-Softplayer\uspQuery.pas</Transaction>
     <Transaction>2021/04/16 09:19:52.000.550,=E:\Desafio-Softplayer\ufTarefa1.pas</Transaction>
-    <Transaction>2021/04/16 16:24:52.835,=vcl.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:52.860,=DbxCommonDriver.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:52.892,=dbrtl.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:52.924,=FireDAC.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:52.953,=FireDACCommonDriver.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:52.983,=FireDACCommon.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:53.012,=dsnap.dcp</Transaction>
-    <Transaction>2021/04/16 16:24:53.043,=dbexpress.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.835,=vcl.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.953,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.860,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.892,=dbrtl.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.924,=FireDAC.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:52.000.983,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:53.000.043,=dbexpress.dcp</Transaction>
+    <Transaction>2021/04/16 16:24:53.000.012,=dsnap.dcp</Transaction>
   </Transactions>
 </BorlandProject>

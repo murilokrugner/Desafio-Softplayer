@@ -11,7 +11,6 @@ type
     spColunas: TStringList;
     spTabelas: TStringList;
 
-    FDQuery: TSQLQuery;
   private
     FSql: string;
     procedure SetSql(const Value: string);
@@ -33,8 +32,6 @@ begin
   spCondicoes := TStringList.Create;
   spColunas := TStringList.Create;
   spTabelas := TStringList.Create;
-
-  FDQuery := TSQLQuery.Create(self);
 end;
 
 destructor TGeraQuery.Destroy;
@@ -44,8 +41,6 @@ begin
   spTabelas.Free;
 
   GeraSQL.Free;
-
-  FDQuery.Free;
 end;
 
 procedure TGeraQuery.SetSql(const Value: string);
@@ -114,9 +109,6 @@ begin
     end;
 
     fTarefa1.MemoSql.Lines.Add(Sql);
-
-    FDQuery.SQL.Clear;
-    FDQuery.SQL.Add(Sql);
 
     SetSql('');
     spColunas.Clear;

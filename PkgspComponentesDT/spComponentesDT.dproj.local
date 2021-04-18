@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/17 12:14:05.000.589,=rtl.dcp</Transaction>
+    <Transaction>2021/04/17 12:14:28.000.119,C:\Users\supor\Documents\Embarcadero\Studio\Projects\spComponentesDT.dproj=C:\Users\supor\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021/04/17 12:14:38.000.947,E:\Desafio-Softplayer\PkgspComponentesDT\spComponentesDT.dproj=C:\Users\supor\Documents\Embarcadero\Studio\Projects\spComponentesDT.dproj</Transaction>
+    <Transaction>2021/04/17 12:18:56.000.299,=E:\Desafio-Softplayer\PkgspComponentesDT\Unit1.pas</Transaction>
+    <Transaction>2021/04/17 12:19:06.000.461,E:\Desafio-Softplayer\PkgspComponentesDT\uspComponentesRegistro.pas=E:\Desafio-Softplayer\PkgspComponentesDT\Unit1.pas</Transaction>
+    <Transaction>2021/04/18 14:13:41.418,=vcl.dcp</Transaction>
+    <Transaction>2021/04/18 14:13:41.426,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2021/04/18 14:13:41.433,=dbrtl.dcp</Transaction>
+    <Transaction>2021/04/18 14:13:41.441,=dsnap.dcp</Transaction>
+    <Transaction>2021/04/18 14:13:41.448,=dbexpress.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

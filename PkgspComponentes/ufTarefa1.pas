@@ -30,6 +30,8 @@ type
     { Private declarations }
      Tarefas : TGeraQuery;
 
+   //  ExecSQL : TComponentesRegistro;
+
   public
     { Public declarations }
 
@@ -40,11 +42,16 @@ var
 
 implementation
 
+
 {$R *.dfm}
 
 procedure TfTarefa1.btnGeraSqlClick(Sender: TObject);
 begin
-  Tarefas.GeraSQL();
+  try
+    Tarefas.GeraSQL();
+  finally
+//    ExecSQL.ExecutarSQL(MemoSql.Lines.Text);
+  end;
 end;
 
 procedure TfTarefa1.FormClose(Sender: TObject; var Action: TCloseAction);
@@ -55,6 +62,8 @@ end;
 procedure TfTarefa1.FormCreate(Sender: TObject);
 begin
   Tarefas := TGeraQuery.Create;
+
+ // ExecSQL := TComponentesRegistro.Create;
 end;
 
 end.
