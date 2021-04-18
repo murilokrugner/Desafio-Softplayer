@@ -120,9 +120,6 @@
         <DCCReference Include="ufTarefa3.pas">
             <Form>fTarefa3</Form>
         </DCCReference>
-        <DCCReference Include="ufTarefa1.pas">
-            <Form>fTarefa1</Form>
-        </DCCReference>
         <DCCReference Include="uspTarefa3.pas"/>
         <DCCReference Include="uspTarefa2.pas"/>
         <BuildConfiguration Include="Release">

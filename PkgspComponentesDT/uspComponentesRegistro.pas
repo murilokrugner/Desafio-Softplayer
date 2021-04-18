@@ -36,9 +36,7 @@ begin
 
   FDQuery.SQL.Add(sql);
 
-  ShowMessage(sql);
-
- // FDQuery.Open;
+  FDQuery.Open;
 end;
 
 end.
