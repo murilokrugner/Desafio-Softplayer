@@ -6,7 +6,8 @@ uses
   ufTarefa2 in 'ufTarefa2.pas' {fTarefa2},
   ufTarefa3 in 'ufTarefa3.pas' {fTarefa3},
   uspTarefa3 in 'uspTarefa3.pas',
-  uspTarefa2 in 'uspTarefa2.pas';
+  uspTarefa2 in 'uspTarefa2.pas',
+  uspTestes in 'uspTestes.pas';
 
 {$R *.res}
 
